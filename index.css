@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav-link:hover{
+    color: aquamarine;
+    transition: .8s;
+    letter-spacing: 6px;
+    cursor: pointer;
+    border: 1px solid aquamarine;
+}
+
+.rounded-circle {
+  width: 1000px;  
+  height: 300px; 
+  object-fit: cover; 
+  border: 20px solid white
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+#cover {
+  background-image: url(Images/opener-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(30%);
+}
+
+#cover-title{
+  border: 5px dashed white;
+  background-color: rgb(51, 50, 50);
+  padding: 10px; 
+  display: inline-block;    
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%; 
+}
+
+
+.card-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d4af37;
+}
+.card-text {
+  font-size: 1rem;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.view-full-btn {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+.view-full-btn:hover {
+  background-color: #0056b3;
+}
+
+.card i {
+  color: black;
+}
+
+#me2 {
+  width: 50%; 
+  max-width: 250px; 
+  min-width: 250px; 
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1/1; 
+  border-radius: 50%; 
+}
+
+#check {
+  display: block;
+  width: 50% !important; 
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+#cover-title{
+  display: block;
+  background-color: rgba(128, 128, 128, 0.9);
+}
+
+#quote{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}
+
+#me {
+ 
+  width: 50%; 
+  max-width: 250px; 
+  min-width: 250px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  max-width: 100%;
+  display: block; 
+  margin: 0 auto; 
+}
+
